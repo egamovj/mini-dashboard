@@ -19,7 +19,6 @@ export const Login: React.FC = () => {
     const [name, setName] = useState('')
     const [loading, setLoading] = useState(false)
 
-    // Clear fields when switching between login and register
     useEffect(() => {
         setEmail('')
         setPassword('')
