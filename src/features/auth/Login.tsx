@@ -157,7 +157,7 @@ export const Login: React.FC = () => {
                             <Input
                                 id="email"
                                 type="email"
-                                placeholder="m@example.com"
+                                placeholder="example@example.com"
                                 required
                                 value={email}
                                 onChange={(e) => setEmail(e.target.value)}
@@ -171,6 +171,7 @@ export const Login: React.FC = () => {
                                 required
                                 value={password}
                                 onChange={(e) => setPassword(e.target.value)}
+                                placeholder='password'
                             />
                         </div>
                         <Button className="w-full" type="submit" disabled={loading}>
